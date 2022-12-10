@@ -1,4 +1,5 @@
 <div class="demo">
+    <p> this is another test 2</p>
     <div vg-if='c.IsLoading'>Loading...</div>
     <div vg-if='len(c.PriceData.BPI) > 0'>
         <div>Updated: <span vg-content='c.PriceData.Time.Updated'></span></div>
@@ -12,6 +13,7 @@
 </div>
 
 <script type="application/x-go">
+
 import "encoding/json"
 import "net/http"
 import "log"

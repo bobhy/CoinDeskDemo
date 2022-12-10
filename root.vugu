@@ -6,3 +6,11 @@
     </div>
 </main>
 </div>
+
+<script type="application/x-go">
+
+type Root struct {
+    ShowVugu bool `vugu:"data"`
+}
+
+</script>
